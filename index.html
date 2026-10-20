@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>basic coding 1</title>
+    <style>
+table, th, td {
+    text-align: center;
+    vertical-align: middle;
+  border: 1px solid black;
+  border-collapse:collapse
+}
+</style>
+</head>
+<body>
+    <h1>XYZ Zoo Animal List</h1>
+    <img src="img/zoo.jpg" width="1000" />
+    <ol>
+        <h3>Feline</h3>
+        <ul>
+            <li>Lynx
+                <a href="img/lynx.jpg" target="_blank"><img src="img/lynx.jpg" width="500" /></a>
+            </li>
+            <li>Lion
+                <a href="img/lion.jpg" target="_blank"><img src="img/lion.jpg" width="500" /></a>
+            </li>
+        </ul>
+
+        <h3>Canine</h3>
+        <ul>
+            <li>Wolf
+                <a href="img/wolf.jpg" target="_blank"><img src="img/wolf.jpg" width="500" /></a>
+            </li>
+            <li>Coyote
+                <a href="img/coyote.jpg" target="_blank"><img src="img/coyote.jpg" width="500" /></a>
+            </li>
+        </ul>
+
+        <h3>Bird</h3>
+        <ul>
+            <li>Parrot</h3>
+                <a href="img/parrot.jpg" target="_blank"><img src="img/parrot.jpg" width="500" /></a>
+            </li>
+            <li>Owl</h3>
+                <a href="img/owl.jpg" target="_blank"><img src="img/owl.jpg" width="500" /></a>
+            </li>
+        </ul>
+    </ol>
+    <ol>
+    </ol>
+    <h2>Source</h2>
+    <ol>
+        <li><a href="https://pexels.com/" target="_blank">Pexels</a></li>
+        <li><a href="https://pixabay.com/" target="_blank">Unsplash</a></li>
+    </ol>
+    
+    <h1>Animal Facts</h1>
+    <table>
+        <tr>
+            <th rowspan="2">Family</th>
+            <th rowspan="2">Animal</th>
+            <th colspan="5">Lifestyle</th>
+        </tr>
+        <tr>
+            <th> Diet</th>
+            <th> Habitat</th>
+            <th> Most Active</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Feline</td>
+            <td>Lynx</td>
+            <td>Carnivore</td>
+            <td>Forests</td>
+            <td>Dawn and dusk</td>
+        </tr>
+        <tr>
+            <td>Lion</td>
+            <td>Carnivore</td>
+            <td>Savanna</td>
+            <td>Night</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Canine</td>
+            <td>Wolf</td>
+            <td>Carnivore</td>
+            <td>Forests, tundra</td>
+            <td>Dawn and dusk</td>
+        </tr>
+        <tr>
+            <td>Coyote</td>
+            <td>Omnivore</td>
+            <td>Grasslands, desert</td>
+            <td>Day</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Bird</td>
+            <td>Parrot</td>
+            <td>Seeds, nuts, fruits</td>
+            <td>Rainforests</td>
+            <td>Day</td>
+        </tr>
+        <tr>
+            <td>Owl</td>
+            <td>Carnivore</td>
+            <td>Forests</td>
+            <td>Night</td>
+        </tr>
+        <tr>
+            <td colspan="5">All animals can be visited every day, 09:00 to 17:00.</td>
+        </tr>
+    </table>
+    <h1>Plan Your Visit</h1>
+    <form>
+	<label for="fname">Full name:</label>
+    <input type="text" id="fname" name="fname" value="e.g Siti Fadillah Azara"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="s.fadillahazara@gmail.com"><br>
+    <label for="date">Date of visit:</label>
+    <input type="date" id="date" name="date"><br>
+    <label for="tickets">Tickets:</label>
+    <input type="number" id="tickets" name="tickets" min="1" value="1"><br>
+    <label for="tickets" >Ticket type:</label>
+    <select name="ticket_type" id="ticket_type">    
+        <option value="adult">Adult</option>
+        <option value="child">Child</option>
+        <option value="senior">Senior</option>
+    </form>
+</body>
